@@ -8,7 +8,7 @@ function Todos() {
     const handleDelete = () =>{
         dispatch({
             type: 'delete',
-            payload: 'index'
+            payload: index
         })
     }
     return (
