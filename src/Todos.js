@@ -5,7 +5,7 @@ function Todos() {
 
     const todos = useSelector(state => state)
 
-    const handleDelete = () =>{
+    const handleDelete = (index) =>{
         dispatch({
             type: 'delete',
             payload: index
